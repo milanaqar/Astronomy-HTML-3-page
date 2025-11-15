@@ -1,10 +1,17 @@
 /* Change all the colors*/
-body {
+body 
+{
   background-color: rgba(6, 6, 6, 0.695);
 }
-h1 {
-  color: rgba(255, 0, 0, 0);
+h1 
+{
+  color: #ffffff;
 }
-p {
+h2
+{
+  color: #cc6eff;
+}
+p 
+{
   color: rgba(185, 243, 253, 0.5);
 }
