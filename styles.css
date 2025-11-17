@@ -1,3 +1,20 @@
+/* Style the navigation links as buttons */
+nav
+{
+a:link, a:visited 
+{
+  border-radius: 10px;
+  background-color: #9810fa;
+  color: #ffffff;
+  padding: 14px 20px;
+  display: inline-block;
+}
+a:hover, a:active 
+{
+  background-color: #6b0dae;
+}
+}
+
 /* Change all the colors*/
 body 
 {
