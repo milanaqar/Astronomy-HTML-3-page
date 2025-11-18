@@ -1,4 +1,10 @@
 /* Style the navigation links as buttons */
+.nav-links
+{
+   display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
 nav
 {
 a:link, a:visited 
@@ -18,7 +24,7 @@ a:hover, a:active
 /* Change all the colors*/
 body 
 {
-  background-color: rgba(6, 6, 6, 0.695);
+  background-color: #000000;
 }
 h1 
 {
@@ -30,5 +36,30 @@ h2
 }
 p 
 {
-  color: rgba(185, 243, 253, 0.5);
+  color: #adb3af
+}
+h3
+{
+  color: #1e4470;
+}
+button
+{
+  background-color: #9810fa;
+  color: #ffffff;
+}
+table, th, td 
+{
+  border: 2px solid #7b46a1;
+  color: #ffffff;
+  
+  border-collapse: collapse;
+}
+.video
+{
+  display: flex;
+  justify-content: flex-end;
+}
+.video-content
+{
+  align-content: center;
 }
