@@ -1,25 +1,53 @@
-/* Style the navigation links as buttons */
-.nav-links
+/* Header container */
+header 
 {
-   display: flex;
-  justify-content: flex-end;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 60px;
+  border-bottom: 2px solid #190727; /* line */
+}
+
+/* Title styling */
+h1 
+{
+  color: white;
+  font-size: 25px;
+  margin: 0px;
+  font-weight: 400;
+}
+
+/* Navigation container */
+nav 
+{
+  display: flex;
   gap: 10px;
 }
-nav
+
+/* All nav links */
+nav a 
 {
-a:link, a:visited 
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 14px;
+  border-radius: 5px;
+}
+
+/* Home button default style */
+.here-btn
 {
-  border-radius: 10px;
-  background-color: #9810fa;
-  color: #ffffff;
-  padding: 14px 20px;
-  display: inline-block;
+  background-color: #9810fa; /* purple background */
 }
-a:hover, a:active 
+
+/* Hover effect for all links */
+nav a:hover 
 {
-  background-color: #6b0dae;
+  background-color: #64129f; /* darker purple on hover */
 }
-}
+
+
+
 
 /* Change all the colors*/
 body 
@@ -29,6 +57,8 @@ body
 h1 
 {
   color: #ffffff;
+  padding-top: 0cm; ;
+
 }
 h2
 {
