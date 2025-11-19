@@ -7,7 +7,6 @@ header
   padding: 12px 60px;
   border-bottom: 2px solid #190727; /* line */
 }
-
 /* Title styling */
 h1 
 {
@@ -16,14 +15,12 @@ h1
   margin: 0px;
   font-weight: 400;
 }
-
 /* Navigation container */
 nav 
 {
   display: flex;
   gap: 10px;
 }
-
 /* All nav links */
 nav a 
 {
@@ -33,17 +30,32 @@ nav a
   padding: 8px 14px;
   border-radius: 5px;
 }
-
-/* Home button default style */
+/* Here button */
 .here-btn
 {
   background-color: #9810fa; /* purple background */
 }
-
 /* Hover effect for all links */
 nav a:hover 
 {
   background-color: #64129f; /* darker purple on hover */
+}
+
+/*Intro section*/
+.intro 
+{
+  text-align: center;
+  padding: 140px;
+  background-image: url(galaxy-intro.jpg);
+  background-size: cover;
+}
+.intro h2
+{ 
+  font-size: 60px;
+}
+.intro p
+{
+  font-size: 24px;
 }
 
 
