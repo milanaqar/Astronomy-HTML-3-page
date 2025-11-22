@@ -45,7 +45,7 @@ nav a:hover
 .intro 
 {
   text-align: center;
-  padding: 140px;
+  padding: 180px;
   background-image: url(galaxy-intro.jpg);
   background-size: cover;
 }
@@ -57,14 +57,83 @@ nav a:hover
 {
   font-size: 24px;
 }
+/* Button */
+button
+{
+   border-radius: 5px;
+   height: 40px;
+   font-size: 16px;
+   width: 120px;
+}
+.container
+{
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  box-sizing: border-box;
+}
+.container div
+{ 
+  flex: 1;
+  text-align: left;
+  padding: 20px;
+  min-height: 300px;
+  font-size: 20px;
+  line-height: 1.6;
+}
+footer 
+{
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  border-top: 2px solid #190727;  /* line */
+}
 
+/*Content page styles*/
+.celestial
+{
+  text-align: center;
+  padding: 60px;
+}
+.celestial h2
+{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.celestial p
+{
+  font-size: 20px;
+  line-height: 1.6;
+}
 
+/* Table */
+.planets
+{
+  border-style: solid ;
+  border-color:  #190727; 
+  margin: 200px;
+  color: #0c0014;
+}
+.planets h2
 
+/*list */
+ul
+{
+  text-align: left;
+  display: inline-block;
+  font-size: 20px;
+  line-height: 1.6;
+  margin-top: 0px;
+  color:#fffeff;
+}
 
 /* Change all the colors*/
 body 
 {
   background-color: #000000;
+  margin: 0;
+  padding: 0;
+
 }
 h1 
 {
@@ -78,7 +147,7 @@ h2
 }
 p 
 {
-  color: #adb3af
+  color: #fffeff
 }
 h3
 {
@@ -93,15 +162,7 @@ table, th, td
 {
   border: 2px solid #7b46a1;
   color: #ffffff;
-  
   border-collapse: collapse;
-}
-.video
-{
-  display: flex;
-  justify-content: flex-end;
-}
-.video-content
-{
-  align-content: center;
+  margin: 0 auto;
+  width: 60%;
 }
